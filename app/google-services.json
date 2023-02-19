@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "713604671737",
+    "firebase_url": "https://nutriplan-91f60-default-rtdb.firebaseio.com",
+    "project_id": "nutriplan-91f60",
+    "storage_bucket": "nutriplan-91f60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713604671737:android:239ebafc82c36666fb1a28",
+        "android_client_info": {
+          "package_name": "com.example.nutriplan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713604671737-9n1r1sk5s3i3qoid45up0uvj2n0rbibb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nutriplan",
+            "certificate_hash": "8d7a199173f7c17bf2cba039382755ea63453395"
+          }
+        },
+        {
+          "client_id": "713604671737-irs8kv4mk4rscafnv3p2i20vatn636e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5BClerM5cmT4Y5mKwsggOaqr_d3zmzgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713604671737-irs8kv4mk4rscafnv3p2i20vatn636e7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713604671737:android:5ce240fbd24e8427fb1a28",
+        "android_client_info": {
+          "package_name": "com.nutri.nutriplan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713604671737-hjc3joh57ln33vg3tqukmlei96r22tu7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nutri.nutriplan",
+            "certificate_hash": "8d7a199173f7c17bf2cba039382755ea63453395"
+          }
+        },
+        {
+          "client_id": "713604671737-irs8kv4mk4rscafnv3p2i20vatn636e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5BClerM5cmT4Y5mKwsggOaqr_d3zmzgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713604671737-irs8kv4mk4rscafnv3p2i20vatn636e7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

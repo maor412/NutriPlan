@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecffec"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.nutri.nutriplan.FragmentEdit">
+
+    <RelativeLayout
+        android:id="@+id/loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_url="https://assets5.lottiefiles.com/private_files/lf30_ykdoon9j.json"
+            app:lottie_autoPlay="true"
+            android:layout_centerInParent="true"
+            app:lottie_loop="true"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_logo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textSize="30dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="-15dp"
+                android:layout_marginBottom="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Name:"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/full_name_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age:"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/age_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight (kg):"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/weight_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height (cm):"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/height_text_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+
+
+            <Spinner
+                android:id="@+id/spinner_exercise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/spinner_exercise_options"
+                android:layoutDirection="ltr"
+                android:layout_marginBottom="30dp"
+                android:gravity="left"/>
+
+
+            <Button
+                android:id="@+id/save_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Save"
+                android:layout_marginTop="40dp"
+                android:textSize="20sp"
+                android:padding="15dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"
+                android:background="@color/green" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

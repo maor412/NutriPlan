@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinner_exercise_options">
+        <item>Excerscise?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="spinner_gender_options">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
